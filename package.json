@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@tanstack/react-query": "^5.51.15",
+    "axios": "^1.7.2",
+    "material-react-table": "^2.13.1"
+  }
+}

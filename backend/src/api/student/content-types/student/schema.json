@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "standard": {
+      "type": "integer"
+    },
+    "roll": {
+      "type": "integer"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "hasNewBooks": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasNewDress": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasNewBicycle": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasStationerySet": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasSchoolBag": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasLunchBox": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasWaterBottle": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasSportsKit": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasNotebookSet": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasLaptop": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
